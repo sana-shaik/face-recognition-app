@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Used Tachyons for easy css styles
 
-## npm install tachyons
+## `npm install tachyons`
 
 Used Tilt for logo tilt (https://www.npmjs.com/package/react-tilt).
 
-## npm install --save react-tilt
+## `npm install --save react-tilt`
 
 Added CSS3 Patterns for ImageLink Background
 
