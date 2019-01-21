@@ -6,7 +6,7 @@ Used Tachyons for easy css styles
 
 Used Tilt for logo tilt (https://www.npmjs.com/package/react-tilt).
 
-##npm install --save react-tilt
+## npm install --save react-tilt
 
 ## Available Scripts
 
