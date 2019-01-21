@@ -39,9 +39,11 @@ https://www.clarifai.com/models/face-detection-image-recognition-model-a403429f2
 
 // initialize with your api key. This will also work in your browser via http://browserify.org/
 
-``` const app = new Clarifai.App({
+``` 
+const app = new Clarifai.App({
     apiKey: 'YOUR_API_KEY'
-    }); ```
+    }); 
+```
 
 // You can also use the SDK by adding this script to your HTML:
 
