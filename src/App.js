@@ -6,6 +6,11 @@ import Rank from './Components/Rank/Rank';
 import './App.css';
 import 'tachyons';
 import Particles from 'react-particles-js';
+import Clarifai from 'clarifai';
+
+const app = new Clarifai.App({
+  apiKey: '8fa96841bcd344f3b705e5d205c1b295'
+ });
 
 const ParticleObject = {
   particles: {
@@ -33,6 +38,15 @@ class App extends Component {
 
   onButtonSubmit = () => {
     console.log('click');
+    app.models.predict("a403429f2ddf4b49b307e318f00e528b", "https://samples.clarifai.com/face-det.jpg").then(
+    function(response) {
+      // do something with response
+      console.log(response);
+    },
+    function(err) {
+      // there was an error
+    }
+  );
   }
 
   render() {

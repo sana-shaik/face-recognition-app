@@ -23,6 +23,30 @@ https://vincentgarreau.com/particles.js/
 
 ### `npm install react-particles-js || yarn add react-particles-js`
 
+Used Face Detection API from Clarifai
+
+https://www.clarifai.com/models/face-detection-image-recognition-model-a403429f2ddf4b49b307e318f00e528b-detection
+
+/ Install the client from NPM
+
+`npm install clarifai`
+
+// Require the client
+
+`const Clarifai = require('clarifai');` or
+
+`import Clarifai from 'clarifai';`
+
+// initialize with your api key. This will also work in your browser via http://browserify.org/
+
+``` const app = new Clarifai.App({
+    apiKey: 'YOUR_API_KEY'
+    }); ```
+
+// You can also use the SDK by adding this script to your HTML:
+
+`<script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>`
+
 
 ## Available Scripts
 
