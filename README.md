@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Used Tachyons for easy css styles
 
-## `npm install tachyons`
+### `npm install tachyons`
 
 Used Tilt for logo tilt (https://www.npmjs.com/package/react-tilt).
 
-## `npm install --save react-tilt`
+### `npm install --save react-tilt`
 
 Added CSS3 Patterns for ImageLink Background
 
@@ -16,9 +16,13 @@ Particle JS for Background Particles.
 
 https://www.npmjs.com/package/react-particles-js
 
-## `npm install react-particles-js || yarn add react-particles-js`
+Copied `Line link shadow` code from the above link.
 
-Copied Line link shadow code from the above link.
+https://vincentgarreau.com/particles.js/ 
+
+
+### `npm install react-particles-js || yarn add react-particles-js`
+
 
 ## Available Scripts
 

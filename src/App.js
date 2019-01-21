@@ -9,13 +9,13 @@ import Particles from 'react-particles-js';
 
 const ParticleObject = {
   particles: {
-    line_linked: {
-      shadow: {
+    number: {
+      value: 30,
+      density: {
         enable: true,
-        color: "#3CA9D1",
-        blur: 5
+        value_area: 800
       }
-    } 
+    }
   }
 }
 
