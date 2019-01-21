@@ -12,6 +12,14 @@ Added CSS3 Patterns for ImageLink Background
 
 https://leaverou.github.io/css3patterns/#honeycomb 
 
+Particle JS for Background Particles.
+
+https://www.npmjs.com/package/react-particles-js
+
+## `npm install react-particles-js || yarn add react-particles-js`
+
+Copied Line link shadow code from the above link.
+
 ## Available Scripts
 
 In the project directory, you can run:
