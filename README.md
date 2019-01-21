@@ -8,6 +8,10 @@ Used Tilt for logo tilt (https://www.npmjs.com/package/react-tilt).
 
 ## npm install --save react-tilt
 
+Added CSS3 Patterns for ImageLink Background
+
+https://leaverou.github.io/css3patterns/#honeycomb 
+
 ## Available Scripts
 
 In the project directory, you can run:
