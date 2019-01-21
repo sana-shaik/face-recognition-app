@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Used Tachyons for easy css styles
+
+## npm install tachyons
+
+Used Tilt for logo tilt (https://www.npmjs.com/package/react-tilt).
+
+##npm install --save react-tilt
+
 ## Available Scripts
 
 In the project directory, you can run:
