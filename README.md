@@ -29,7 +29,7 @@ https://www.clarifai.com/models/face-detection-image-recognition-model-a403429f2
 
 / Install the client from NPM
 
-`npm install clarifai`
+## `npm install clarifai`
 
 // Require the client
 
@@ -48,6 +48,10 @@ const app = new Clarifai.App({
 // You can also use the SDK by adding this script to your HTML:
 
 `<script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>`
+
+Clarifai Models like Face_Detection, Color_Detection, Food_Detection etc.,
+
+https://github.com/Clarifai/clarifai-javascript/blob/master/src/index.js
 
 
 ## Available Scripts
