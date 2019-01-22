@@ -4,6 +4,7 @@ import Logo from './Components/Logo/Logo';
 import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 import Rank from './Components/Rank/Rank';
 import FaceRecognition from './Components/FaceRecognition/FaceRecognition';
+import SignIn from './Components/SignIn/SignIn'
 import './App.css';
 import 'tachyons';
 import Particles from 'react-particles-js';
@@ -31,7 +32,8 @@ class App extends Component {
     this.state = {
       input: '',
       imageUrl: '',
-      box: {}
+      box: {},
+      route: 'SignIn'
     }
   }
 
@@ -83,10 +85,18 @@ class App extends Component {
         />
 
         <Navigation />
-        <Logo />
-        <Rank />
-        <ImageLinkForm onInputChange = {this.onInputChange} onButtonSubmit={this.onButtonSubmit} />     
-        <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl}/> 
+
+        {this.state.route === 'SignIn' ? <SignIn /> : 
+        
+        <div>
+          <Logo />
+          <Rank />
+          <ImageLinkForm onInputChange = {this.onInputChange} onButtonSubmit={this.onButtonSubmit} />     
+          <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl}/> 
+
+        </div>
+        
+        }
       </div>
     );
   }
