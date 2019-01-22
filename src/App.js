@@ -3,7 +3,7 @@ import Navigation from './Components/Navigation/Navigation';
 import Logo from './Components/Logo/Logo';
 import ImageLinkForm from './Components/ImageLinkForm/ImageLinkForm';
 import Rank from './Components/Rank/Rank';
-import FaceRecognition from './Components/FaceRecognition/FaceRecognition'
+import FaceRecognition from './Components/FaceRecognition/FaceRecognition';
 import './App.css';
 import 'tachyons';
 import Particles from 'react-particles-js';
